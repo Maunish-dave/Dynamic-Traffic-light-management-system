@@ -1,0 +1,79 @@
+Google  Patents
+
+keywords:
+traffic , prediction , system
+
+search string: traffic lights prediction system
+
+number of results : 5
+----------------------------
+Environmental Science And Engineering
+
+Controlling traffic signals
+
+Ipc :  G08G1/07 
+
+Title: Traffic light prediction system 
+
+Patent No. US 7,187,301 B2
+
+App No. 10/894,922 
+
+weblink: https://patents.google.com/patent/US7187301B2/en?oq=traffic+lights#title
+
+Date of filing: 2004-07-20
+
+Name of Inventor: Guixian Lu
+
+Address of Inventor: Melrose Rd Pontiac MI US   48340
+
+Name of Applicant/Assignee: Guixian Lu
+
+Name of Applicant/Assignee:  Melrose Rd Pontiac MI US   48340
+
+Application for patent is: individual
+
+----------------------------------
+
+Limitation:The limitation to current technology is it only gives driver of the vehicle the information regarding the future traffic lights.
+but the system won't optimize itself and adapt to current traffic situation to reduce the traffic.
+Another limitation is to setup various different lights for different moving section which is not cost effective.
+
+
+
+Specific Problem solved by invention:primary objective of the present invention is to save fuel.
+other objective are to save fuel to maximize the usage of streets, 
+and to reduce traffic accidents.
+
+
+Brief about invention:A traffic system that helps a driver to save gasoline by avoiding red light or by decelerating before a red light. It predicts the colors of a traffic light and informs about the future traffic light colors that will happen to a driver. The system comprising a sub-control system, three kinds of moving sections representing three future colors: green, yellow, and red. The positions of the moving sections are showed by indicators. The indicators are secured along one side of the street.
+
+
+
+Key learning points:The idea here is creative but the cost required to make this is not proportional  to the cost it saves.
+
+
+Summary of invention:The primary objective of the present invention is to save fuel for vehicles and travel time. Other objectives are to reduce pollution from vehicles, to maximize the usage of the streets, and to reduce traffic accidents and traffic jams.
+
+The forgoing objectives are accomplished by defining moving sections on a street, moving towards the traffic light. Usually each kind of moving section represents one future color from the traffic light. Green sections will result in arriving to a green light. Red section will result in arriving to a red light. There are Indicators informing the drivers about the locations and colors of the moving sections. Some small lights, may act as Indicators. The drivers will know how to change the speed in order to shift from a red section to a green section.
+
+
+
+Number of claims:10
+
+
+Patent status:expired
+
+
+How much this invention is related with your IDP/UDP?
+
+Instead of using lights as indicator for the future traffic lights there should be a system which can broadcast signal directly to system in your car or phone. which will make this cost effective. Other than that it would be better if the system adapts to current traffic condition to reduce traffic jams and save waiting time on traffic lights.
+
+
+
+
+
+
+
+
+
