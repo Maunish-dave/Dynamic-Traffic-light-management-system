@@ -180,10 +180,10 @@ class Agent:
         )
 
 
-def run(train=True,model_name="model",epochs=50):
+def run(train=True,model_name="model",epochs=50,steps=500):
     """execute the TraCI control loop"""
     epochs = epochs
-    steps = 1000
+    steps = steps
     best_time = np.inf
     total_time_list = list()
     traci.start(
@@ -322,6 +322,13 @@ def get_options():
         default=50,
         help="Number of epochs",
     )
+    optParser.add_option(
+        "-s",
+        dest='steps',
+        type='int',
+        default=500,
+        help="Number of steps",
+    )
     options, args = optParser.parse_args()
     return options
 
@@ -332,4 +339,5 @@ if __name__ == "__main__":
     model_name = options.model_name
     train = options.train
     epochs = options.epochs
-    run(train=train,model_name=model_name,epochs=epochs)
+    steps = options.steps
+    run(train=train,model_name=model_name,epochs=epochs,steps=steps)
