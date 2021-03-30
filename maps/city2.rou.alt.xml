@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/29/21 11:24:29 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="city2.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="city2.rou.xml"/>
+        <alternatives-output value="city2.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="6" depart="6.00">
+        <routeDistribution last="0">
+            <route cost="66.74" probability="1.00000000" edges="-gneE11 -gneE10 gneE3 -gneE2 -gneE26 -gneE25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="7" depart="7.00">
+        <routeDistribution last="0">
+            <route cost="67.02" probability="1.00000000" edges="gneE22 gneE23 gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="13" depart="13.00">
+        <routeDistribution last="0">
+            <route cost="6.97" probability="1.00000000" edges="-gneE15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="16" depart="16.00">
+        <routeDistribution last="0">
+            <route cost="21.50" probability="1.00000000" edges="gneE12 -gneE6 gneE8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="22" depart="22.00">
+        <routeDistribution last="0">
+            <route cost="58.77" probability="1.00000000" edges="-gneE14 gneE13 gneE4 gneE5 -gneE29"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="27" depart="27.00">
+        <routeDistribution last="0">
+            <route cost="89.83" probability="1.00000000" edges="gneE22 gneE23 gneE24 gneE2 -gneE4 -gneE13 gneE14 gneE15 gneE16"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="31" depart="31.00">
+        <routeDistribution last="0">
+            <route cost="35.77" probability="1.00000000" edges="gneE13 gneE4 gneE5 gneE20"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="34" depart="34.00">
+        <routeDistribution last="0">
+            <route cost="52.35" probability="1.00000000" edges="-gneE33 -gneE32 -gneE31 -gneE30"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="36" depart="36.00">
+        <routeDistribution last="0">
+            <route cost="99.71" probability="1.00000000" edges="gneE38 -gneE34 -gneE33"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="39" depart="39.00">
+        <routeDistribution last="0">
+            <route cost="6.45" probability="1.00000000" edges="-gneE3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="51" depart="51.00">
+        <routeDistribution last="0">
+            <route cost="44.18" probability="1.00000000" edges="gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="55" depart="55.00">
+        <routeDistribution last="0">
+            <route cost="132.35" probability="1.00000000" edges="gneE38 -gneE34 -gneE33 -gneE32 -gneE31 -gneE30"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="63" depart="63.00">
+        <routeDistribution last="0">
+            <route cost="31.30" probability="1.00000000" edges="-gneE11 -gneE10 gneE3 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="71" depart="71.00">
+        <routeDistribution last="0">
+            <route cost="50.88" probability="1.00000000" edges="-gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="72" depart="72.00">
+        <routeDistribution last="0">
+            <route cost="37.84" probability="1.00000000" edges="-gneE5 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="77" depart="77.00">
+        <routeDistribution last="0">
+            <route cost="88.47" probability="1.00000000" edges="-gneE17 -gneE16 -gneE15 -gneE14 gneE13 gneE4 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="85" depart="85.00">
+        <routeDistribution last="0">
+            <route cost="66.67" probability="1.00000000" edges="gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="94" depart="94.00">
+        <routeDistribution last="0">
+            <route cost="58.65" probability="1.00000000" edges="-gneE20 -gneE5 -gneE3 gneE10 gneE11 gneE12 -gneE6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="102" depart="102.00">
+        <routeDistribution last="0">
+            <route cost="73.95" probability="1.00000000" edges="-gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="103" depart="103.00">
+        <routeDistribution last="0">
+            <route cost="13.66" probability="1.00000000" edges="-gneE4 -gneE13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="112" depart="112.00">
+        <routeDistribution last="0">
+            <route cost="28.78" probability="1.00000000" edges="-gneE13 gneE14 gneE15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="115" depart="115.00">
+        <routeDistribution last="0">
+            <route cost="44.14" probability="1.00000000" edges="-gneE14 gneE13 gneE4 -gneE2 -gneE24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="119" depart="119.00">
+        <routeDistribution last="0">
+            <route cost="29.58" probability="1.00000000" edges="gneE15 gneE16 gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="120" depart="120.00">
+        <routeDistribution last="0">
+            <route cost="110.37" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14 gneE15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="127" depart="127.00">
+        <routeDistribution last="0">
+            <route cost="6.68" probability="1.00000000" edges="gneE9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="128" depart="128.00">
+        <routeDistribution last="0">
+            <route cost="58.89" probability="1.00000000" edges="-gneE14 gneE13 gneE4 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="137" depart="137.00">
+        <routeDistribution last="0">
+            <route cost="22.18" probability="1.00000000" edges="-gneE18 -gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="138" depart="138.00">
+        <routeDistribution last="0">
+            <route cost="44.60" probability="1.00000000" edges="-gneE16 -gneE15 -gneE14 gneE13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="145" depart="145.00">
+        <routeDistribution last="0">
+            <route cost="13.85" probability="1.00000000" edges="-gneE10 gneE3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="149" depart="149.00">
+        <routeDistribution last="0">
+            <route cost="83.25" probability="1.00000000" edges="-gneE14 gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="150" depart="150.00">
+        <routeDistribution last="0">
+            <route cost="39.45" probability="1.00000000" edges="gneE4 -gneE3 gneE10 gneE11 gneE12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="158" depart="158.00">
+        <routeDistribution last="0">
+            <route cost="132.98" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="159" depart="159.00">
+        <routeDistribution last="0">
+            <route cost="61.50" probability="1.00000000" edges="-gneE19 -gneE7 gneE6 -gneE12 -gneE11 -gneE10 gneE3 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="171" depart="171.00">
+        <routeDistribution last="0">
+            <route cost="36.55" probability="1.00000000" edges="-gneE11 -gneE10 gneE3 -gneE2 -gneE24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="182" depart="182.00">
+        <routeDistribution last="0">
+            <route cost="81.36" probability="1.00000000" edges="-gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="184" depart="184.00">
+        <routeDistribution last="0">
+            <route cost="23.29" probability="1.00000000" edges="-gneE10 gneE3 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="198" depart="198.00">
+        <routeDistribution last="0">
+            <route cost="35.69" probability="1.00000000" edges="-gneE5 -gneE4 -gneE13 gneE14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="203" depart="203.00">
+        <routeDistribution last="0">
+            <route cost="53.81" probability="1.00000000" edges="-gneE15 -gneE14 gneE13 gneE4 -gneE3 gneE10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="206" depart="206.00">
+        <routeDistribution last="0">
+            <route cost="47.29" probability="1.00000000" edges="gneE23 gneE24 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="207" depart="207.00">
+        <routeDistribution last="0">
+            <route cost="46.22" probability="1.00000000" edges="-gneE21 -gneE8 gneE6 -gneE12 -gneE11"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="210" depart="210.00">
+        <routeDistribution last="0">
+            <route cost="147.81" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17 gneE18"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="214" depart="214.00">
+        <routeDistribution last="0">
+            <route cost="6.45" probability="1.00000000" edges="gneE3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="220" depart="220.00">
+        <routeDistribution last="0">
+            <route cost="73.80" probability="1.00000000" edges="gneE23 gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="223" depart="223.00">
+        <routeDistribution last="0">
+            <route cost="45.79" probability="1.00000000" edges="gneE26 gneE2 -gneE3 gneE10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="234" depart="234.00">
+        <routeDistribution last="0">
+            <route cost="62.05" probability="1.00000000" edges="gneE25 gneE26 gneE2 -gneE4 -gneE13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="236" depart="236.00">
+        <routeDistribution last="0">
+            <route cost="118.39" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE26 -gneE25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="237" depart="237.00">
+        <routeDistribution last="0">
+            <route cost="81.07" probability="1.00000000" edges="-gneE5 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="240" depart="240.00">
+        <routeDistribution last="0">
+            <route cost="44.37" probability="1.00000000" edges="-gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="248" depart="248.00">
+        <routeDistribution last="0">
+            <route cost="102.80" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE24 -gneE23"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="252" depart="252.00">
+        <routeDistribution last="0">
+            <route cost="96.15" probability="1.00000000" edges="-gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17 gneE18"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="256" depart="256.00">
+        <routeDistribution last="0">
+            <route cost="133.47" probability="1.00000000" edges="gneE30 gneE31 gneE32 gneE33 gneE34 -gneE38"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="263" depart="263.00">
+        <routeDistribution last="0">
+            <route cost="81.67" probability="1.00000000" edges="gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE26 -gneE25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="264" depart="264.00">
+        <routeDistribution last="0">
+            <route cost="59.39" probability="1.00000000" edges="-gneE11 -gneE10 gneE3 -gneE2 -gneE24 -gneE23 -gneE22"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="266" depart="266.00">
+        <routeDistribution last="0">
+            <route cost="43.44" probability="1.00000000" edges="gneE13 gneE4 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="275" depart="275.00">
+        <routeDistribution last="0">
+            <route cost="75.00" probability="1.00000000" edges="gneE24 gneE2 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="278" depart="278.00">
+        <routeDistribution last="0">
+            <route cost="105.98" probability="1.00000000" edges="-gneE17 -gneE16 -gneE15 -gneE14 gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="283" depart="283.00">
+        <routeDistribution last="0">
+            <route cost="100.70" probability="1.00000000" edges="-gneE16 -gneE15 -gneE14 gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="285" depart="285.00">
+        <routeDistribution last="0">
+            <route cost="82.33" probability="1.00000000" edges="gneE25 gneE26 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="286" depart="286.00">
+        <routeDistribution last="0">
+            <route cost="78.04" probability="1.00000000" edges="gneE29 -gneE5 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="293" depart="293.00">
+        <routeDistribution last="0">
+            <route cost="96.31" probability="1.00000000" edges="-gneE7 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4 -gneE13 gneE14 gneE15 gneE16"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="294" depart="294.00">
+        <routeDistribution last="0">
+            <route cost="36.36" probability="1.00000000" edges="-gneE39 -gneE9 gneE6 -gneE12 -gneE11"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="301" depart="301.00">
+        <routeDistribution last="0">
+            <route cost="44.51" probability="1.00000000" edges="-gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="302" depart="302.00">
+        <routeDistribution last="0">
+            <route cost="68.03" probability="1.00000000" edges="gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE7 gneE19"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="304" depart="304.00">
+        <routeDistribution last="0">
+            <route cost="65.86" probability="1.00000000" edges="-gneE15 -gneE14 gneE13 gneE4 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="313" depart="313.00">
+        <routeDistribution last="0">
+            <route cost="52.75" probability="1.00000000" edges="-gneE20 -gneE5 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="317" depart="317.00">
+        <routeDistribution last="0">
+            <route cost="93.25" probability="1.00000000" edges="-gneE21 -gneE8 gneE6 -gneE12 -gneE11 -gneE10 gneE3 gneE5 -gneE29"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="325" depart="325.00">
+        <routeDistribution last="0">
+            <route cost="35.77" probability="1.00000000" edges="-gneE20 -gneE5 -gneE4 -gneE13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="334" depart="334.00">
+        <routeDistribution last="0">
+            <route cost="21.06" probability="1.00000000" edges="gneE11 gneE12 -gneE6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="339" depart="339.00">
+        <routeDistribution last="0">
+            <route cost="90.78" probability="1.00000000" edges="-gneE21 -gneE8 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE26"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="346" depart="346.00">
+        <routeDistribution last="0">
+            <route cost="21.20" probability="1.00000000" edges="gneE24 gneE2 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="348" depart="348.00">
+        <routeDistribution last="0">
+            <route cost="44.04" probability="1.00000000" edges="gneE22 gneE23 gneE24 gneE2 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="349" depart="349.00">
+        <routeDistribution last="0">
+            <route cost="37.04" probability="1.00000000" edges="-gneE5 -gneE3 gneE10 gneE11 gneE12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="350" depart="350.00">
+        <routeDistribution last="0">
+            <route cost="111.04" probability="1.00000000" edges="gneE22 gneE23 gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="353" depart="353.00">
+        <routeDistribution last="0">
+            <route cost="36.33" probability="1.00000000" edges="gneE3 -gneE4 -gneE13 gneE14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="355" depart="355.00">
+        <routeDistribution last="0">
+            <route cost="74.15" probability="1.00000000" edges="gneE24 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE8 gneE21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="360" depart="360.00">
+        <routeDistribution last="0">
+            <route cost="85.49" probability="1.00000000" edges="-gneE15 -gneE14 gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="365" depart="365.00">
+        <routeDistribution last="0">
+            <route cost="21.38" probability="1.00000000" edges="-gneE8 gneE7 gneE19"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="366" depart="366.00">
+        <routeDistribution last="0">
+            <route cost="21.72" probability="1.00000000" edges="gneE4 -gneE2 -gneE24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="367" depart="367.00">
+        <routeDistribution last="0">
+            <route cost="44.41" probability="1.00000000" edges="gneE15 gneE16 gneE17 gneE18"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="380" depart="380.00">
+        <routeDistribution last="0">
+            <route cost="65.91" probability="1.00000000" edges="gneE3 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="382" depart="382.00">
+        <routeDistribution last="0">
+            <route cost="20.86" probability="1.00000000" edges="gneE13 gneE4 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="383" depart="383.00">
+        <routeDistribution last="0">
+            <route cost="29.96" probability="1.00000000" edges="-gneE6 gneE8 gneE21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="384" depart="384.00">
+        <routeDistribution last="0">
+            <route cost="105.98" probability="1.00000000" edges="-gneE17 -gneE16 -gneE15 -gneE14 gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="388" depart="388.00">
+        <routeDistribution last="0">
+            <route cost="36.30" probability="1.00000000" edges="gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="391" depart="391.00">
+        <routeDistribution last="0">
+            <route cost="45.79" probability="1.00000000" edges="gneE26 gneE2 -gneE3 gneE10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="398" depart="398.00">
+        <routeDistribution last="0">
+            <route cost="82.95" probability="1.00000000" edges="-gneE40 -gneE39 -gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 gneE5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="402" depart="402.00">
+        <routeDistribution last="0">
+            <route cost="82.04" probability="1.00000000" edges="-gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE2 -gneE24 -gneE23 -gneE22"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="404" depart="404.00">
+        <routeDistribution last="0">
+            <route cost="46.42" probability="1.00000000" edges="gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="406" depart="406.00">
+        <routeDistribution last="0">
+            <route cost="81.93" probability="1.00000000" edges="-gneE20 -gneE5 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE8 gneE21"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="410" depart="410.00">
+        <routeDistribution last="0">
+            <route cost="101.37" probability="1.00000000" edges="gneE33 gneE34 -gneE38"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="417" depart="417.00">
+        <routeDistribution last="0">
+            <route cost="40.24" probability="1.00000000" edges="gneE26 gneE2 -gneE4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="422" depart="422.00">
+        <routeDistribution last="0">
+            <route cost="32.27" probability="1.00000000" edges="gneE35 gneE36 gneE37"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="431" depart="431.00">
+        <routeDistribution last="0">
+            <route cost="119.67" probability="1.00000000" edges="gneE25 gneE26 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="448" depart="448.00">
+        <routeDistribution last="0">
+            <route cost="78.42" probability="1.00000000" edges="-gneE8 gneE6 -gneE12 -gneE11 -gneE10 gneE3 gneE5 -gneE29"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="449" depart="449.00">
+        <routeDistribution last="0">
+            <route cost="14.17" probability="1.00000000" edges="gneE14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="454" depart="454.00">
+        <routeDistribution last="0">
+            <route cost="43.37" probability="1.00000000" edges="-gneE13 gneE14 gneE15 gneE16"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="458" depart="458.00">
+        <routeDistribution last="0">
+            <route cost="67.51" probability="1.00000000" edges="gneE2 -gneE4 -gneE13 gneE14 gneE15 gneE16 gneE17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="466" depart="466.00">
+        <routeDistribution last="0">
+            <route cost="6.16" probability="1.00000000" edges="-gneE2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="467" depart="467.00">
+        <routeDistribution last="0">
+            <route cost="21.50" probability="1.00000000" edges="gneE12 -gneE6 gneE8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="468" depart="468.00">
+        <routeDistribution last="0">
+            <route cost="58.39" probability="1.00000000" edges="gneE11 gneE12 -gneE6 gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="475" depart="475.00">
+        <routeDistribution last="0">
+            <route cost="75.34" probability="1.00000000" edges="gneE26 gneE2 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE8"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="480" depart="480.00">
+        <routeDistribution last="0">
+            <route cost="67.60" probability="1.00000000" edges="gneE23 gneE24 gneE2 -gneE4 -gneE13 gneE14 gneE15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="482" depart="482.00">
+        <routeDistribution last="0">
+            <route cost="80.95" probability="1.00000000" edges="-gneE16 -gneE15 -gneE14 gneE13 gneE4 gneE5 -gneE29"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="484" depart="484.00">
+        <routeDistribution last="0">
+            <route cost="90.45" probability="1.00000000" edges="gneE13 gneE4 -gneE3 gneE10 gneE11 gneE12 -gneE6 gneE9 gneE39 gneE40"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="490" depart="490.00">
+        <routeDistribution last="0">
+            <route cost="51.29" probability="1.00000000" edges="-gneE16 -gneE15 -gneE14 gneE13 gneE4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="493" depart="493.00">
+        <routeDistribution last="0">
+            <route cost="44.86" probability="1.00000000" edges="gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="494" depart="494.00">
+        <routeDistribution last="0">
+            <route cost="43.98" probability="1.00000000" edges="gneE3 -gneE2 -gneE24 -gneE23 -gneE22"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="496" depart="496.00">
+        <routeDistribution last="0">
+            <route cost="52.58" probability="1.00000000" edges="-gneE9 gneE6 -gneE12 -gneE11 -gneE10 gneE3 -gneE4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="497" depart="497.00">
+        <routeDistribution last="0">
+            <route cost="13.66" probability="1.00000000" edges="gneE6 -gneE12"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

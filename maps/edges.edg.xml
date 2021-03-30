@@ -1,0 +1,11 @@
+<edges>
+<edge id='1to0' from='1' to='0' priority="78" numLanes="1" speed="30"/>
+<edge id='2to0' from='2' to='0' priority="78" numLanes="1" speed="30"/>
+<edge id='3to0' from='3' to='0' priority="78" numLanes="1" speed="30"/>
+<edge id='4to0' from='4' to='0' priority="78" numLanes="1" speed="30"/>
+
+<edge id='0to1' from='0' to='1' priority="78" numLanes="1" speed="30"/>
+<edge id='0to2' from='0' to='2' priority="78" numLanes="1" speed="30"/>
+<edge id='0to3' from='0' to='3' priority="78" numLanes="1" speed="30"/>
+<edge id='0to4' from='0' to='4' priority="78" numLanes="1" speed="30"/>
+</edges>
