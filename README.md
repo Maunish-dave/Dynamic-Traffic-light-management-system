@@ -90,7 +90,7 @@ change net-file and route-files in input.
 
 Now use train.py file to train model for this network.<br/>
 
-`python train.py --train -e 50 -m model_name`
+`python train.py --train -e 50 -m model_name -s 500`
 
 This code will train the model for 50 epoch.<br/>
 -e is to set the epochs.<br/>
@@ -103,7 +103,7 @@ At the end of simulation it will show time_vs_epoch graphs and save it to plots 
 
 You can use train.py to run pretrained model on gui.
 
-`python train.py -m model_name`
+`python train.py -m model_name -s 500`
 
 This will open gui which you can run to see how your model performs.
 
