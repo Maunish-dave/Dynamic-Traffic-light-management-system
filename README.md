@@ -54,5 +54,60 @@ Here are the examples of some of the maps used to train the model.
 ### Epoch Vs Time for Map3
 ![evst3](plots/time_vs_epoch_model.png)
 
+## How to train new Networks.
+
+First Download or clone the repository.<br/>
+Then pip install requirements.txt using
+
+`pip install -r requirements.txt`
+
+you need to download SUMO GUI for running simulations.
+
+download sumo gui from [here](https://sumo.dlr.de/docs/Downloads.php)
+
+### Step1: create newtork and route file
+
+Use SUMO netedit tool to create a network<br/>
+for example 'network.net.xml' and save it in maps folder.
+
+cd into maps folder and run following command
+
+`python randomTrips.py -n network.net.xml -r routes.rou.xml -e 500`
+
+This will create routes.rou.xml file for 500 simulation steps for the network "network.net.xml"
+
+### Step2: Set Configuration file.
+
+You need to provide network and route files to Configuration file.<br/>
+change net-file and route-files in input.
+
+`<input>`        
+  `<net-file value='maps/city1.net.xml'/>`
+  `<route-files value='maps/city1.rou.xml'/>`
+`</input>`
+
+### Step3: Train the model.
+
+Now use train.py file to train model for this network.<br/>
+
+`python train.py --train -e 50 -m model_name`
+
+This code will train the model for 50 epoch.<br/>
+-e is to set the epochs.<br/>
+-m for model_name which will be saved in models folder.<br/>
+--train tells the train.py to train the model if not specified it will load model_name from the models folder.
+
+At the end of simulation it will show time_vs_epoch graphs and save it to plots folder with name time_vs_epoch_{model_name}.png
+
+### Step4: Running trained model.
+
+You can use train.py to run pretrained model on gui.
+
+`python train.py -m model_name`
+
+This will open gui which you can run to see how your model performs.
+
+ 
+
 
 
