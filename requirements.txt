@@ -2,4 +2,3 @@ pytorch
 numpy
 matplotlib
 sumo
-optparse
