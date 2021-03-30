@@ -1,5 +1,5 @@
 pytorch
 numpy
-matploblib
+matplotlib
 sumo
 optparse
