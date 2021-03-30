@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <!-- <net-file value='maps/network4.net.xml'/> -->
+        <!-- <route-files value='maps/routes4.rou.xml'/> -->
+        <!-- <net-file value='maps/citysample.net.xml'/> -->
+        <!-- <route-files value='maps/citysample.rou.xml'/> -->
+        <net-file value='maps/city1.net.xml'/>
+        <route-files value='maps/city1.rou.xml'/>
+    </input>
+    <time>
+        <begin value='0'/>
+        <end value='200'/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>
+
