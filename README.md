@@ -1,5 +1,5 @@
 # Traffic-light-management-system
-This repository contains files of traffic light management system based on Reinforcement Learning.
+This repository contains files for traffic light management system using Reinforcement Learning.
 
 ## Basic Idea 
 
