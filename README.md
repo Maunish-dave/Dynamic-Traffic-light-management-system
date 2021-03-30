@@ -35,8 +35,13 @@ We used SUMO open source software to make maps and generate simulation to train 
 
 Here are the examples of some of the maps used to train the model.
 
-![map1](maps images/city2.jpg)
-![map2](maps images/city3.jpg)
-![map3](maps images/citymap.jpg)
+### Map1 
+![map1](maps_images/city2.JPG)
+
+### Map2
+![map2](maps_images/city3.JPG)
+
+### Map 3
+![map3](maps_images/citymap.JPG)
 
 
