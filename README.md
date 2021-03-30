@@ -44,4 +44,15 @@ Here are the examples of some of the maps used to train the model.
 ### Map 3
 ![map3](maps_images/citymap.JPG)
 
+###  Epoch Vs Time for Map1
+
+![evst](plots/time_vs_epoch_city1.png)
+
+### Epoch Vs Time for Map2
+![evst2](plots/time_vs_epoch_city3.png)
+
+### Epoch Vs Time for Map3
+![evst3](plots/time_vs_epoch_model.png)
+
+
 
