@@ -3,7 +3,7 @@ This repository contains files for traffic light management system using Reinfor
 
 ## Basic Idea 
 
-![sample](documentation/samplecity1.png)
+![sample](documentation/samplecity1.PNG)
 
 suppose we have a city grid as shown above with 4 traffic light nodes.<br/>
 n1, n2 , n3 and n4
