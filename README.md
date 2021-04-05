@@ -95,6 +95,7 @@ Now use train.py file to train model for this network.<br/>
 This code will train the model for 50 epoch.<br/>
 -e is to set the epochs.<br/>
 -m for model_name which will be saved in models folder.<br/>
+-s tells simulation to run for 500 steps.<br/>
 --train tells the train.py to train the model if not specified it will load model_name from the models folder.
 
 At the end of simulation it will show time_vs_epoch graphs and save it to plots folder with name time_vs_epoch_{model_name}.png
@@ -103,11 +104,7 @@ At the end of simulation it will show time_vs_epoch graphs and save it to plots 
 
 You can use train.py to run pretrained model on gui.
 
-`python train.py -m model_name -s 500`
+`python train.py -m model_name -s 500` 
 
 This will open gui which you can run to see how your model performs.
-
- 
-
-
-
+To get accurate results set value of -s same for testing and training.
