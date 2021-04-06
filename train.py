@@ -5,6 +5,7 @@ import os
 import sys
 import optparse
 import random
+import serial
 import numpy as np
 import torch
 import torch.optim as optim
@@ -43,6 +44,12 @@ def phaseDuration(junction, phase_time, phase_state):
     traci.trafficlight.setRedYellowGreenState(junction, phase_state)
     traci.trafficlight.setPhaseDuration(junction, phase_time)
 
+arduino = serial.Serial(port='COM4', baudrate=9600, timeout=.1)
+def write_read(x):
+    arduino.write(bytes(x, 'utf-8'))
+    time.sleep(0.05)
+    data = arduino.readline()
+    return data
 
 class Model(nn.Module):
     def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):
@@ -275,6 +282,8 @@ def run(train=True,model_name="model",epochs=50,steps=500):
                     prev_action[junction_number] = lane
                     phaseDuration(junction, 6, select_lane[lane][0])
                     phaseDuration(junction, min_duration + 10, select_lane[lane][1])
+                    ph = str(traci.trafficlight.getPhase("0"))
+                    value = write_read(ph)                    
                     traffic_lights_time[junction] = min_duration + 10
                     if train:
                         brain.learn(junction_number)
