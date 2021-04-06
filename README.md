@@ -121,3 +121,11 @@ You can use train.py to run pretrained model on gui.
 
 This will open gui which you can run to see how your model performs.
 To get accurate results set value of -s same for testing and training.
+
+### Extra: Running Ardunio
+Currently arduino works only for single crossroad.<br/>
+More than one corss road will return error.<br/>
+
+For running arduino for testing use --ard.
+
+`python train.py -m model_name -s 500 --ard`
