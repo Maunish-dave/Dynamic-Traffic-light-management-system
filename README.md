@@ -59,13 +59,13 @@ Here are the examples of some of the maps used to train the model.
 We have connected our simulation with arduino.<br/>
 
 ### Arduino1
-![pic1](arduino_images/arduino.jpg)
+![pic1](arduino_images/arduino1.jpg)
 
 ### Arduino2
-![pic1](arduino_images/arduino.jpg)
+![pic1](arduino_images/arduino2.jpg)
 
 ### Arduino3
-![pic1](arduino_images/arduino.jpg)
+![pic1](arduino_images/arduino3.jpg)
 
 ## How to train new Networks.
 
