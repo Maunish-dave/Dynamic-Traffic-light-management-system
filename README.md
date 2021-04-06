@@ -57,7 +57,9 @@ Here are the examples of some of the maps used to train the model.
 ## Simulation of Trained Model.
 
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/SJtu8lellWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://user-images.githubusercontent.com/44360315/113673665-e8edd300-96d6-11eb-8fbe-d09e078fbfbe.mp4
+
 
 
 ## Arduino connection.
@@ -88,6 +90,9 @@ download sumo gui from [here](https://sumo.dlr.de/docs/Downloads.php)
 
 Use SUMO netedit tool to create a network<br/>
 for example 'network.net.xml' and save it in maps folder.
+
+https://user-images.githubusercontent.com/44360315/113673620-da9fb700-96d6-11eb-966f-9490dc0da1cb.mp4
+
 
 cd into maps folder and run following command
 
