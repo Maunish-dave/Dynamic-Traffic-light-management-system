@@ -54,6 +54,12 @@ Here are the examples of some of the maps used to train the model.
 ### Epoch Vs Time for Map3
 ![evst3](plots/time_vs_epoch_model.png)
 
+## Simulation of Trained Model.
+
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/SJtu8lellWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Arduino connection.
 
 We have connected our simulation with arduino.<br/>
