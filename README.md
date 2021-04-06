@@ -91,9 +91,6 @@ download sumo gui from [here](https://sumo.dlr.de/docs/Downloads.php)
 Use SUMO netedit tool to create a network<br/>
 for example 'network.net.xml' and save it in maps folder.
 
-https://user-images.githubusercontent.com/44360315/113673620-da9fb700-96d6-11eb-966f-9490dc0da1cb.mp4
-
-
 cd into maps folder and run following command
 
 `python randomTrips.py -n network.net.xml -r routes.rou.xml -e 500`
