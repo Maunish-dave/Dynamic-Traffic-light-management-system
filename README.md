@@ -54,6 +54,19 @@ Here are the examples of some of the maps used to train the model.
 ### Epoch Vs Time for Map3
 ![evst3](plots/time_vs_epoch_model.png)
 
+## Arduino connection.
+
+We have connected our simulation with arduino.<br/>
+
+### Arduino1
+![pic1](arduino_images/arduino.jpg)
+
+### Arduino2
+![pic1](arduino_images/arduino.jpg)
+
+### Arduino3
+![pic1](arduino_images/arduino.jpg)
+
 ## How to train new Networks.
 
 First Download or clone the repository.<br/>
