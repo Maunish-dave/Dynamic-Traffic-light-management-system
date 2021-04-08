@@ -17,6 +17,8 @@ Amount of waiting time for given traffic signal is equal to total car present on
 Each traffic signal will have 4 waiting time counter for each side of road. So based on that our model will<br/>
 decide which side to select for the green signal.
 
+![train](documentation/train_loop.png)
+
 ## Basic training process.
 
 We have trained our model on some number of events.<br/>
